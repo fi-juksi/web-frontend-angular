@@ -21,12 +21,12 @@
       },
       "title": {
         "long": "Korespondenční seminář z informatiky",
-        "short": "KSI"
+        "short": "JuKSI"
       },
       "category": {
         "tasks": "Úlohy",
         "results": "Výsledky",
-        "about": "O KSI",
+        "about": "O JuKSI",
         "news": "Novinky",
         "discussion": "Diskuze",
         "admin": "Admin"
@@ -41,7 +41,7 @@
       }
     },
     "footer": {
-      "license": " Obsah tohoto webu je poskytován pod licencí CC BY-NC v4.0. Copyright © KSI 2015–2023.  Tato aktivita probíhá díky podpoře Ministerstva školství, mládeže a tělovýchovy, dotace na podporu nadaných žáků základních a středních škol v roce 2023.",
+      "license": " Obsah tohoto webu je poskytován pod licencí CC BY-NC v4.0. Copyright © JuKSI 2015–2023.  Tato aktivita probíhá díky podpoře Ministerstva školství, mládeže a tělovýchovy, dotace na podporu nadaných žáků základních a středních škol v roce 2023.",
       "version": "Verze webu",
       "bug-report": "Nahlásit chybu webu",
       "privacy-policy": "Zpracování osobních údajů"
@@ -50,15 +50,15 @@
       "about": {
         "seminar": {
           "title": "Pochop informatiku",
-          "text": "KSI, neboli Korespondenční Seminář z Informatiky, je celoroční soutěž pro středoškoláky z České i Slovenské republiky organizovaná studenty Fakulty informatiky Masarykovy univerzity. Cílem semináře je seznámit řešitele se zajímavými oblastmi informatiky a procvičit programátorské, matematické a logické myšlení. Seminář je uzpůsoben jak pro úplné začátečníky, kteří si na jednoduchých příkladech procvičí danou problematiku, tak pro zkušenější řešitele, kteří se pokusí pokořit hlavní soutěžní úlohy."
+          "text": "JuKSI, neboli Korespondenční Seminář z Informatiky, je celoroční soutěž pro středoškoláky z České i Slovenské republiky organizovaná studenty Fakulty informatiky Masarykovy univerzity. Cílem semináře je seznámit řešitele se zajímavými oblastmi informatiky a procvičit programátorské, matematické a logické myšlení. Seminář je uzpůsoben jak pro úplné začátečníky, kteří si na jednoduchých příkladech procvičí danou problematiku, tak pro zkušenější řešitele, kteří se pokusí pokořit hlavní soutěžní úlohy."
         },
         "kscuk": {
           "title":  "Zúčastni se soustřední a KSÍletů",
-          "text": "Při řešení našeho semináře nemusíš jen sedět doma za počítačem. Během roku pro všechny řešitele pravidelně pořádáme výlety (Ksílety), na kterých se můžeš seznámit s ostatními řešiteli, osobně poznat organizátory a zahrát si kupu zajímavých her. V září se mohou úspěšní řešitelé těšit na týdenní soustředění K-SCUK, které je společné pro KSI a  biologický seminář IBIS. Náplní soustředění je jak odborný program, díky kterému se opět naučíš něco nového z informatiky, tak bohatý doprovodný program."
+          "text": "Při řešení našeho semináře nemusíš jen sedět doma za počítačem. Během roku pro všechny řešitele pravidelně pořádáme výlety (Ksílety), na kterých se můžeš seznámit s ostatními řešiteli, osobně poznat organizátory a zahrát si kupu zajímavých her. V září se mohou úspěšní řešitelé těšit na týdenní soustředění K-SCUK, které je společné pro JuKSI a  biologický seminář IBIS. Náplní soustředění je jak odborný program, díky kterému se opět naučíš něco nového z informatiky, tak bohatý doprovodný program."
         },
         "achievements": {
           "title": "Získej všechny trofeje",
-          "text": "Za každou vyřešenou úlohu dostáváš body. Pokud budeš mít na konci roku alespoň 60 % z celkového možného počtu bodů, staneš se úspěšným řešitelem. V průběhu řešení semináře můžeš navíc za překonávání milníků, odevzdávání zajímavých řešení nebo třeba za účast na KSI akcích obdržet nejrůznější odznáčky. Podaří se ti jich získat co nejvíc? Ulovíš i ty nejvzácnější? Soutěž s ostatními řešiteli a posbírej je všechny! "
+          "text": "Za každou vyřešenou úlohu dostáváš body. Pokud budeš mít na konci roku alespoň 60 % z celkového možného počtu bodů, staneš se úspěšným řešitelem. V průběhu řešení semináře můžeš navíc za překonávání milníků, odevzdávání zajímavých řešení nebo třeba za účast na JuKSI akcích obdržet nejrůznější odznáčky. Podaří se ti jich získat co nejvíc? Ulovíš i ty nejvzácnější? Soutěž s ostatními řešiteli a posbírej je všechny! "
         },
         "begin":  "Začni řešit",
         "lets-start": "Jdu na to",
@@ -68,7 +68,7 @@
         "title": "Novinky"
       },
       "organisators": {
-        "title": "Organizátoři KSI"
+        "title": "Organizátoři JuKSI"
       }
     }
   },
@@ -76,7 +76,7 @@
     "title": "Novinky"
   },
   "about": {
-    "title": "O KSI"
+    "title": "O JuKSI"
   },
   "results": {
     "title": "Výsledky",
@@ -94,7 +94,7 @@
   },
   "modal": {
     "login": {
-      "title": "Přihlaš se do KSI",
+      "title": "Přihlaš se do JuKSI",
       "email": "e-mail",
       "password": "heslo",
       "login": "Přihlásit se",
@@ -103,7 +103,7 @@
       "forgotten-password": "Neznám svoje heslo"
     },
     "register": {
-      "title": "Registruj se do KSI",
+      "title": "Registruj se do JuKSI",
       "register": "Zaregistrovat se!",
       "fill-testing": "[DEV] Rychlá registrace",
       "optional": "Nepovinné - ",
@@ -140,7 +140,7 @@
       },
       "tos": {
         "title": "Souhlasy",
-        "agreed": "Souhlasím s pravidly KSI a ",
+        "agreed": "Souhlasím s pravidly JuKSI a ",
         "text": "zpracováním svých osobních údajů"
       }
     },
@@ -369,7 +369,7 @@
       "password-change-success": "Změna hesla proběhla úspěšně",
       "save": "Uložit změny",
       "change-picture": "Nahrát nový profilový obrázek",
-      "discord-join": "přidat se na Discord server KSI",
+      "discord-join": "přidat se na Discord server JuKSI",
       "about-me": {
         "title": "O mně",
         "first-name": "Křestní jméno",
@@ -429,9 +429,9 @@
       "prediction": {
         "normal": "Potřebuješ získat ještě {{percent}}% z celkového počtu bodů",
         "positive": {
-          "male": "Jsi úspěšným řešitelem KSI",
-          "female": "Jsi úspěšnou řešitelkou KSI",
-          "other": "Jsi úspěšným řešitelem KSI"
+          "male": "Jsi úspěšným řešitelem JuKSI",
+          "female": "Jsi úspěšnou řešitelkou JuKSI",
+          "other": "Jsi úspěšným řešitelem JuKSI"
         },
         "negative": {
           "male": "V tomto ročníku se již nejspíše nemůžeš stát úspěšným řešitelem",
@@ -502,7 +502,7 @@
       },
       "subject": {
         "title": "Předmět",
-        "initial": "[KSI] "
+        "initial": "[JuKSI] "
       },
       "reply-to": {
         "title": "Adresa pro odpověď",
