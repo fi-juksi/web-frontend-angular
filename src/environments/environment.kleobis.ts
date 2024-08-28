@@ -7,11 +7,11 @@ import { Environment } from './model';
 export const environment: Environment = {
   production: true,
   disableRegistration: false,
-  backend: 'https://rest.ksi.fi.muni.cz/',
+  backend: 'https://rest.juksi.fi.muni.cz/',
   edulint: {
     url: 'https://edulint.com',
     version: 'latest',
-    config: 'https://ksi.fi.muni.cz/assets/edulint/ksi.toml'
+    config: 'https://juksi.fi.muni.cz/assets/edulint/ksi.toml'
   },
   urlPrefix: '/',
   logger: {
@@ -20,5 +20,5 @@ export const environment: Environment = {
     debug: console.debug,
     warn: console.warn
   },
-  oldFrontendUrl: 'https://ksi-admin.ahlava.cz'
+  oldFrontendUrl: 'https://juksi-admin.iamroot.eu'
 };
