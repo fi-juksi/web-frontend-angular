@@ -9,7 +9,7 @@
     display: grid;
     padding-top: $ksi-padding;
 
-    background-image: url("../../../../assets/img/welcome.jpg");
+    // background-image: url("../../../../assets/img/welcome.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -34,10 +34,10 @@
       margin-top: $ksi-margin;
       grid-area: name;
       display: flex;
-      justify-content: flex-start;
+      justify-content: center;
       margin-bottom: $ksi-margin;
       color: $ksi-white;
-      text-shadow: 1px 1px 3px $ksi-blue-180;
+      //text-shadow: 1px 1px 3px $ksi-blue-180;
       font-size: 2.3rem;
 
       > * {
@@ -51,7 +51,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: flex-start;
-      flex-direction: column;
+      flex-direction: row;
       margin-left: $ksi-margin-large;
 
       > *:not(:last-child) {
@@ -98,7 +98,7 @@
 
   .begin {
     padding: $ksi-padding;
-    background-color: $ksi-navbar-bg;
+    //background-color: $ksi-navbar-bg;
     border-top: 1px solid $ksi-page-welcome-banner-bg;
     display: flex;
     flex-direction: column;
@@ -127,7 +127,7 @@
       }
 
       > * {
-        color: $ksi-navbar-fg;
+        color: $ksi-page-fg;
         font-size: 1.5rem;
         display: inline-block;
         font-weight: bold;
@@ -140,6 +140,26 @@
           margin-right: $ksi-margin;
         }
       }
+      // pokus sTARTS HERE-->
+      .subjects-grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+      }
+      
+      .subjects-grid-item {
+        text-align: center;
+        
+      }
+      
+      .subjects-grid-item img {
+        width: 40%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+      }
+      //ENDS HERE
     }
 
     .tasks {
@@ -219,7 +239,7 @@
 
     .articles-container, .organisators-container {
       flex-grow: 1;
-      min-width: 50%;
+      min-width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;

@@ -4,6 +4,10 @@
       {{'root.navbar.title.long' | translate}}
     </span>
   </h1>
+  <a [routerLink]="['/', routes.routes.tasks._]" class="tasks">
+    <button class="btn-lg btn btn-ksi">{{'root.welcome.about.begin' | translate}}</button>
+  </a>
+  <!--
   <div class="images">
     <a (click)="toggleAboutInfo(0)" href="#">
       <img src="assets/img/about/seminar.svg"
@@ -24,28 +28,71 @@
       >
     </a>
   </div>
+-->
+
 </div>
 
 <div class="begin">
-  <a [routerLink]="['/', routes.routes.tasks._]" class="tasks">
-    <button class="btn-lg btn btn-ksi">{{'root.welcome.about.begin' | translate}}</button>
-  </a>
-  <a  class="more-info" [routerLink]="['/', routes.routes.about]">- {{'root.welcome.about.more-info' | translate}} -</a>
+  <!--<a  class="more-info" [routerLink]="['/', routes.routes.about]">- {{'root.welcome.about.more-info' | translate}} -</a>-->
   <div class="subjects">
-    <a href="#" (click)="toggleAboutInfo(0)" [class.active]="aboutInfoShown && aboutInfoSlide === 0">
-      {{'root.welcome.about.seminar.title' | translate}}
-    </a>
-    <span>-</span>
-    <a href="#" (click)="toggleAboutInfo(1)" [class.active]="aboutInfoShown && aboutInfoSlide === 1">
-      {{'root.welcome.about.kscuk.title' | translate}}
-    </a>
-    <span>-</span>
-    <a href="#" (click)="toggleAboutInfo(2)" [class.active]="aboutInfoShown && aboutInfoSlide === 2">
-      {{'root.welcome.about.achievements.title' | translate}}
-    </a>
+    <div class="subjects-grid-container">
+      <div class="subjects-grid-item">
+        <img src="assets/img/about/seminar.svg"
+           [alt]="'root.welcome.about.seminar.title' | translate"
+           [class.active]="aboutInfoShown && aboutInfoSlide === 0"
+      >
+        <a href="#" (click)="toggleAboutInfo(0)" [class.active]="aboutInfoShown && aboutInfoSlide === 0">
+          {{'root.welcome.about.seminar.title' | translate}}
+        </a>
+        <div class="content">
+          <span class="text">{{'root.welcome.about.seminar.text' | translate}}</span>
+          <button class="btn-lg btn btn-go"
+                  [routerLink]="['/', routes.routes.tasks._]">
+            {{'root.welcome.about.lets-start' | translate}}
+          </button>
+        </div>
+      </div>
+      
+      
+      <div class="subjects-grid-item">
+        <img src="assets/img/about/kscuk.svg"
+           [alt]="'root.welcome.about.kscuk.title' | translate"
+           [class.active]="aboutInfoShown && aboutInfoSlide === 1"
+      >
+      <a href="#" (click)="toggleAboutInfo(1)" [class.active]="aboutInfoShown && aboutInfoSlide === 1">
+        {{'root.welcome.about.kscuk.title' | translate}}
+      </a>
+      <div class="content">
+        <span class="text">{{'root.welcome.about.kscuk.text' | translate}}</span>
+        <button class="btn-lg btn btn-go" (click)="openKScuk()">
+          {{'root.welcome.about.lets-start' | translate}}
+        </button>
+      </div>
+    </div>
+
+      <div class="subjects-grid-item">
+        <img src="assets/img/about/achievements.svg"
+           [alt]="'root.welcome.about.achievements.title' | translate"
+           [class.active]="aboutInfoShown && aboutInfoSlide === 2"
+      >
+      <a href="#" (click)="toggleAboutInfo(2)" [class.active]="aboutInfoShown && aboutInfoSlide === 2">
+        {{'root.welcome.about.achievements.title' | translate}}
+      </a>
+      <div class="content">
+        <span class="text">{{'root.welcome.about.achievements.text' | translate}}</span>
+        <button class="btn-lg btn btn-go"
+                [routerLink]="['/', routes.routes.achievements]"
+        >
+          {{'root.welcome.about.lets-start' | translate}}
+        </button>
+      </div>
+    </div>
+
+    </div>
+    
   </div>
 </div>
-
+<!--
 <carousel class="about-carousel"
           [activeSlide]="aboutInfoSlide"
           [collapse]="!aboutInfoShown"
@@ -83,7 +130,7 @@
   </slide>
 </carousel>
 <div class="about-carousel-border"></div>
-
+-->
 <div class="articles-organisators-container">
   <div class="articles-container">
     <span class="header">{{'root.welcome.news.title' | translate}}</span>
