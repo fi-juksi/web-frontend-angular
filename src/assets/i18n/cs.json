@@ -50,11 +50,11 @@
       "about": {
         "seminar": {
           "title": "Pochop informatiku",
-          "text": "JuKSI, neboli Korespondenční Seminář z Informatiky, je celoroční soutěž pro středoškoláky z České i Slovenské republiky organizovaná studenty Fakulty informatiky Masarykovy univerzity. Cílem semináře je seznámit řešitele se zajímavými oblastmi informatiky a procvičit programátorské, matematické a logické myšlení. Seminář je uzpůsoben jak pro úplné začátečníky, kteří si na jednoduchých příkladech procvičí danou problematiku, tak pro zkušenější řešitele, kteří se pokusí pokořit hlavní soutěžní úlohy."
+          "text": "JuKSI, neboli Korespondenční Seminář z Informatiky, je půlroční soutěž pro žáky ZŠ z České i Slovenské republiky organizovaná studenty Fakulty informatiky Masarykovy univerzity. Cílem semináře je seznámit řešitele se zajímavými oblastmi informatiky a procvičit programátorské, matematické a logické myšlení. Seminář je uzpůsoben jak pro úplné začátečníky, kteří si na jednoduchých příkladech procvičí danou problematiku, tak pro zkušenější řešitele, kteří se pokusí pokořit hlavní soutěžní úlohy."
         },
         "kscuk": {
-          "title":  "Zúčastni se soustřední a KSÍletů",
-          "text": "Při řešení našeho semináře nemusíš jen sedět doma za počítačem. Během roku pro všechny řešitele pravidelně pořádáme výlety (Ksílety), na kterých se můžeš seznámit s ostatními řešiteli, osobně poznat organizátory a zahrát si kupu zajímavých her. V září se mohou úspěšní řešitelé těšit na týdenní soustředění K-SCUK, které je společné pro JuKSI a  biologický seminář IBIS. Náplní soustředění je jak odborný program, díky kterému se opět naučíš něco nového z informatiky, tak bohatý doprovodný program."
+          "title":  "Zúčastni se soustřední",
+          "text": "Na konci školního se mohou úspěšní řešitelé těšit na soustředění na Fakultě informatiky, kde se s ostatními úspěšnými řešiteli můžeš těšit na odborný i doprovodný program."
         },
         "achievements": {
           "title": "Získej všechny trofeje",
@@ -81,7 +81,7 @@
   "results": {
     "title": "Výsledky",
     "category": {
-      "highschoolers": "Středoškoláci",
+      "highschoolers": "Základoškoláci",
       "others": "Ostatní"
     },
     "table": {
@@ -109,7 +109,7 @@
       "optional": "Nepovinné - ",
       "disabled": "Registrování bylo na této verzi webu dočasně vyřazeno",
       "about-me": {
-        "title": "O mě",
+        "title": "O mně",
         "first-name": "Křestní jméno",
         "nickname": "přezdívka",
         "last-name": "Příjmení",
@@ -136,7 +136,7 @@
       "school": {
         "title": "Moje škola",
         "name": "Jméno mé školy",
-        "end": "Rok maturity (předpokládaný)"
+        "end": "Rok ukončení ZŠ (předpokládaný)"
       },
       "tos": {
         "title": "Souhlasy",
@@ -401,7 +401,7 @@
       "school": {
         "title": "Moje škola",
         "name": "Jméno mé školy",
-        "end": "Rok maturity (předpokládaný)"
+        "end": "Rok ukončení ZŠ (předpokládaný)"
       }
     },
     "tasks": {
@@ -520,21 +520,21 @@
       },
       "reply-to": {
         "title": "Adresa pro odpověď",
-        "initial": "ksi@fi.muni.cz"
+        "initial": "juksi@fi.muni.cz"
       },
       "bcc": {
         "title": "Slepé kopie (jedna adresa na řádek)"
       },
       "school": {
         "title": "Z daného ročníku poslat podle školy",
-        "hs": "středoškolákům",
-        "other": "NEstředoškolákům",
+        "hs": "základoškolákům",
+        "other": "NEzákladoškolákům",
         "both": "z jakékoliv školy"
       },
       "type": {
         "title": "Kategorie emailu",
         "ksi": "informace o průběhu semináře (nová vlna, ...)",
-        "event": "pozvánka na akci (KSÍlet, Poznej FI, ...)"
+        "event": "pozvánka na akci"
       },
       "sex": {
         "title": "Z daného ročníku poslat podle pohlaví",
