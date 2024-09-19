@@ -9,11 +9,12 @@
     display: grid;
     padding-top: $ksi-padding;
 
-    // background-image: url("../../../../assets/img/welcome.jpg");
+    background-image: url("../../../../assets/img/welcome.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-color: $ksi-navbar-bg;
+  
 
     grid-template: "badges name"
                    "badges __";
@@ -128,9 +129,9 @@
 
       > * {
         color: $ksi-page-fg;
-        font-size: 1.5rem;
+        font-size: 1rem;
         display: inline-block;
-        font-weight: bold;
+        // font-weight: bold;
 
         &.active {
           text-decoration: underline;
