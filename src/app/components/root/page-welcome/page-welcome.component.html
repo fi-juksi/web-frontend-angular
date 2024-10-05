@@ -41,7 +41,7 @@
            [alt]="'root.welcome.about.seminar.title' | translate"
            [class.active]="aboutInfoShown && aboutInfoSlide === 0"
       >
-        <a href="#" (click)="toggleAboutInfo(0)" [class.active]="aboutInfoShown && aboutInfoSlide === 0">
+        <a href="#">
           {{'root.welcome.about.seminar.title' | translate}}
         </a>
         <div class="content">
@@ -59,12 +59,12 @@
            [alt]="'root.welcome.about.kscuk.title' | translate"
            [class.active]="aboutInfoShown && aboutInfoSlide === 1"
       >
-      <a href="#"  [class.active]="aboutInfoShown && aboutInfoSlide === 1">
+      <a href="#">
         {{'root.welcome.about.kscuk.title' | translate}}
       </a>
       <div class="content">
         <span class="text">{{'root.welcome.about.kscuk.text' | translate}}</span>
-        <button class="btn-lg btn btn-go" (click)="openKScuk()">
+        <button class="btn-lg btn btn-go">
           {{'root.welcome.about.lets-start' | translate}}
         </button>
       </div>
@@ -75,7 +75,7 @@
            [alt]="'root.welcome.about.achievements.title' | translate"
            [class.active]="aboutInfoShown && aboutInfoSlide === 2"
       >
-      <a href="#" (click)="toggleAboutInfo(2)" [class.active]="aboutInfoShown && aboutInfoSlide === 2">
+      <a href="#">
         {{'root.welcome.about.achievements.title' | translate}}
       </a>
       <div class="content">

@@ -7,7 +7,7 @@ import { Environment } from './model';
 export const environment: Environment = {
   production: false,
   disableRegistration: false,
-  backend: 'http://localhost:3030/',
+  backend: 'https://rest.juksi.fi.muni.cz/',
   edulint: {
     url: 'https://edulint.com',
     version: 'latest',
