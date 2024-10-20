@@ -41,15 +41,15 @@
            [alt]="'root.welcome.about.seminar.title' | translate"
            [class.active]="aboutInfoShown && aboutInfoSlide === 0"
       >
-        <a href="#">
+        <h2><a href="#">
           {{'root.welcome.about.seminar.title' | translate}}
-        </a>
+        </a></h2>
         <div class="content">
           <span class="text">{{'root.welcome.about.seminar.text' | translate}}</span>
-          <button class="btn-lg btn btn-go"
+          <!--<button class="btn-lg btn btn-go"
                   [routerLink]="['/', routes.routes.tasks._]">
             {{'root.welcome.about.lets-start' | translate}}
-          </button>
+          </button>-->
         </div>
       </div>
       
@@ -59,14 +59,16 @@
            [alt]="'root.welcome.about.kscuk.title' | translate"
            [class.active]="aboutInfoShown && aboutInfoSlide === 1"
       >
-      <a href="#">
+      <h2><a href="#">
         {{'root.welcome.about.kscuk.title' | translate}}
-      </a>
+      </a></h2>
       <div class="content">
         <span class="text">{{'root.welcome.about.kscuk.text' | translate}}</span>
+        <!--
         <button class="btn-lg btn btn-go">
           {{'root.welcome.about.lets-start' | translate}}
         </button>
+        -->
       </div>
     </div>
 
@@ -75,16 +77,19 @@
            [alt]="'root.welcome.about.achievements.title' | translate"
            [class.active]="aboutInfoShown && aboutInfoSlide === 2"
       >
+      <h2>
       <a href="#">
         {{'root.welcome.about.achievements.title' | translate}}
-      </a>
+      </a></h2>
       <div class="content">
         <span class="text">{{'root.welcome.about.achievements.text' | translate}}</span>
+        <!--
         <button class="btn-lg btn btn-go"
                 [routerLink]="['/', routes.routes.achievements]"
         >
           {{'root.welcome.about.lets-start' | translate}}
         </button>
+        -->
       </div>
     </div>
 
@@ -92,45 +97,7 @@
     
   </div>
 </div>
-<!--
-<carousel class="about-carousel"
-          [activeSlide]="aboutInfoSlide"
-          [collapse]="!aboutInfoShown"
-          [showIndicators]="false"
-          [interval]="0"
-          [isAnimated]="true"
-          (activeSlideChange)="onAboutSlideChange($event)"
->
-  <slide>
-    <div class="content">
-      <span class="text">{{'root.welcome.about.seminar.text' | translate}}</span>
-      <button class="btn-lg btn btn-go"
-              [routerLink]="['/', routes.routes.tasks._]">
-        {{'root.welcome.about.lets-start' | translate}}
-      </button>
-    </div>
-  </slide>
-  <slide>
-    <div class="content">
-      <span class="text">{{'root.welcome.about.kscuk.text' | translate}}</span>
-      <button class="btn-lg btn btn-go" (click)="openKScuk()">
-        {{'root.welcome.about.lets-start' | translate}}
-      </button>
-    </div>
-  </slide>
-  <slide>
-    <div class="content">
-      <span class="text">{{'root.welcome.about.achievements.text' | translate}}</span>
-      <button class="btn-lg btn btn-go"
-              [routerLink]="['/', routes.routes.achievements]"
-      >
-        {{'root.welcome.about.lets-start' | translate}}
-      </button>
-    </div>
-  </slide>
-</carousel>
-<div class="about-carousel-border"></div>
--->
+
 <div class="articles-organisators-container">
   <div class="articles-container">
     <span class="header">{{'root.welcome.news.title' | translate}}</span>
@@ -145,6 +112,7 @@
       </ksi-article-preview>
     </div>
   </div>
+  <!--
   <div class="organisators-container">
     <span class="header">{{'root.welcome.organisators.title' | translate}}</span>
     <ksi-spinner [source]="years.organisators$"></ksi-spinner>
@@ -160,5 +128,5 @@
           {{organiser.last_name | uppercase}}</span>
       </a>
     </div>
-  </div>
+  </div>-->
 </div>

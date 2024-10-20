@@ -40,7 +40,7 @@
      // grid-area: name;
       margin-bottom: $ksi-margin;
       color: $ksi-white;
-      //text-shadow: 1px 1px 3px $ksi-blue-180;
+      text-shadow: 1px 1px 3px $ksi-blue-180;
       font-size: 2.3rem;
 
       > * {
@@ -145,10 +145,10 @@
       margin: $ksi-margin;
       padding: 5rem;
       flex-wrap: wrap;
-
+      /*
       @media screen and (max-width: $ksi-max-mobile-width) {
-        display: none;
-      }
+        flex-wrap: nowrap;
+      }*/
 
       > * {
         color: $ksi-page-fg;
@@ -168,12 +168,16 @@
       .subjects-grid-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 50px;
+        gap: 4em;
+
+        @media screen and (max-width: $ksi-max-mobile-width) {
+          grid-template-columns: repeat(1, 1fr);
+          gap: 0;
+        }
       }
-      
+
       .subjects-grid-item {
         text-align: center;
-        
       }
       
       .subjects-grid-item img {
