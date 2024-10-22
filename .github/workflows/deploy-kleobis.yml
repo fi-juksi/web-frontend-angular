@@ -14,12 +14,13 @@ jobs:
         with:
           fetch-depth: 100
           path: 'src'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "14.18.3"
       - name: prepare dist tar
         shell: bash
         run: |
           cd src &&
-          curl https://get.volta.sh | bash &&
-          "$HOME"/.volta/bin/volta install node@14.18.3 &&
           npm install &&
           npm run build.kleobis &&
           cd dist/web-frontend-angular/cs/ &&
