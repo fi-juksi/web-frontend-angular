@@ -41,7 +41,7 @@
       }
     },
     "footer": {
-      "license": " Obsah tohoto webu je poskytován pod licencí CC BY-NC v4.0. Copyright © JuKSI 2015–2023.  Tato aktivita probíhá díky podpoře Ministerstva školství, mládeže a tělovýchovy, dotace na podporu nadaných žáků základních a středních škol v roce 2023.",
+      "license": " Obsah tohoto webu je poskytován pod licencí CC BY-NC v4.0. Copyright © JuKSI 2024.",
       "version": "Verze webu",
       "bug-report": "Nahlásit chybu webu",
       "privacy-policy": "Zpracování osobních údajů"
@@ -50,7 +50,7 @@
       "about": {
         "seminar": {
           "title": "Pochop informatiku",
-          "text": "JuKSI, neboli Korespondenční Seminář z Informatiky, je půlroční soutěž pro žáky ZŠ z České i Slovenské republiky organizovaná studenty Fakulty informatiky Masarykovy univerzity. Cílem semináře je seznámit řešitele se zajímavými oblastmi informatiky a procvičit programátorské, matematické a logické myšlení. Seminář je uzpůsoben jak pro úplné začátečníky, kteří si na jednoduchých příkladech procvičí danou problematiku, tak pro zkušenější řešitele, kteří se pokusí pokořit hlavní soutěžní úlohy."
+          "text": "JuKSI, neboli Juniorský Korespondenční Seminář z Informatiky, je půlroční soutěž pro žáky ZŠ z České i Slovenské republiky organizovaná studenty Fakulty informatiky Masarykovy univerzity. Cílem semináře je seznámit řešitele se zajímavými oblastmi informatiky a procvičit programátorské, matematické a logické myšlení. Seminář je uzpůsoben jak pro úplné začátečníky, kteří si na jednoduchých příkladech procvičí danou problematiku, tak pro zkušenější řešitele, kteří se pokusí pokořit hlavní soutěžní úlohy."
         },
         "kscuk": {
           "title":  "Zúčastni se soustřední",
