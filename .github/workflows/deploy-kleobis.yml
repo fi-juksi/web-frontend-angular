@@ -18,6 +18,8 @@ jobs:
         shell: bash
         run: |
           cd src &&
+          curl https://get.volta.sh | bash &&
+          volta install node@14.18.3 &&
           npm install &&
           npm run build.kleobis &&
           cd dist/web-frontend-angular/cs/ &&
