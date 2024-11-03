@@ -28,12 +28,12 @@ export class ModalRegisterComponent implements OnInit, OnDestroy, ModalComponent
     lastName: ['', Validators.required],
     nick: [undefined],
     sex: ['', Validators.required],
-
+/*
     address: ['', Validators.required],
     city: ['', Validators.required],
     postalCode: ['', Validators.required],
     country: [null, Validators.required],
-
+*/
     schoolName: ['', Validators.required],
     schoolAddress: ['', Validators.required],
     schoolCity: ['', Validators.required],
@@ -166,10 +166,10 @@ export class ModalRegisterComponent implements OnInit, OnDestroy, ModalComponent
       last_name: this.form.controls.lastName.value,
       gender: this.form.controls.sex.value,
       short_info: this.form.controls.aboutMe.value,
-      addr_street: "není potřeba",
-      addr_city: "není potřeba",
-      addr_zip: "není potřeba",
-      addr_country: "není potřeba",
+      addr_street: "",
+      addr_city: "",
+      addr_zip: "",
+      addr_country: "",
       school_name: this.form.controls.schoolName.value,
       school_street: this.form.controls.schoolAddress.value,
       school_city: this.form.controls.schoolCity.value,
