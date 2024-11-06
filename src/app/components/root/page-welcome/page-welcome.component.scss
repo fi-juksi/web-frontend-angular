@@ -128,10 +128,6 @@
     align-items: center;
     justify-content: center;
 
-    @media screen and (max-width: $ksi-max-mobile-width) {
-      background-color: $ksi-page-welcome-banner-bg;
-    }
-
     .more-info {
       color: $ksi-footer-link-fg;
 
